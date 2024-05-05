@@ -16,7 +16,7 @@
                 <li><a href="../home/home.html">Home</a></li>
                 <li><a href="../marketplace/marketplace.html">Mercado</a></li>
                 <li><a href="../garden/garden.html">Horta</a></li>
-                <li><a href="">Sobre Nós</a></li>
+                <li><a href="../contact/contact.html">Sobre Nós</a></li>
             </ul>
         </nav>
         <div class="icons">
@@ -26,7 +26,7 @@
                 <button class="dropbtn material-symbols-outlined">person</button>
                 <div class="dropdown-content">
                 <a href="../login/login.html">Faça Login</a>
-                <a href="../cadastro/cadastro.html">Cadastre-se</a>
+                <a href="../register/register.html">Cadastre-se</a>
                 <a href="../login/login.html">Sair</a>
                 </div>
             </div>
@@ -41,10 +41,20 @@
             para fornecer alimentos nutritivos para aqueles que mais precisam, promovendo assim a saúde
             e o bem-estar de indivíduos e famílias</p>
             <div class="contact">
-                <div><img src="../assets/imgs/google-maps.webp" alt=""></div>
                 <div>
-                    <form action="">
-                        <input type="email" name="" id="">
+                    <picture>
+                        <source media="(max-width: 1920px)" srcset="../assets/imgs/google-maps-p.jpg" type="image/png">
+                        <img src="../assets/imgs/google-maps-m.jpg" alt="img">
+                    </picture>
+                </div>
+                <div>
+                    <form>
+                        <h1>Entre em contato conosco</h1>
+                        <input type="text" name="name" id="name" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="tel" name="tel" id="tel" placeholder="Telefone (XX) XXXX-XXXX">
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Insira sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
                     </form>
                 </div>
 
